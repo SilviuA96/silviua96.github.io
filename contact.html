@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>S.A.- Portfolio</title>
-</head>
-<style>
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" type="img/jpg" href="Image/1.jpg">
+      <title>S.A.- Portfolio</title>
+      </head>
+      <style>
+        
       input[type=text], select {
       width: 100%;
       padding: 12px 20px;
@@ -62,11 +64,11 @@
 
       .Column_1 {
       float: left;
-      width: 50%; /* This ensures the column takes up half of the page width */
+      width: 50%;
       padding: 10px;
-      padding-top: 3%; /* This ensures there is space between the top of the column and our headings */
-      height: 500px; /* This sets the height of the column to 500px -  this may need to be adjusted depending on the text you enter */
-      background-color: #f2f2f2; /* Sets the background color of the columns with class Column_1 */
+      padding-top: 3%;
+      height: 500px;
+      background-color: #f2f2f2;
       border-radius: 10px;
       }
 
@@ -102,12 +104,12 @@
       }
 
       .Navbar a:hover {
-      background-color: #4d4d4d; /* Defines the background color that will display when you hover over the link */
-      color: white; /* This defines the font color that will display when navbar a elements are hovered over */
-      font-weight: bold; /* This makes the text on the navbar bold when hovered over */
+      background-color: #4d4d4d;
+      color: white;
+      font-weight: bold;
       }
 
-      .Navbar a.active { /* This targets the a element on the navbar with the "active" class */
+      .Navbar a.active {
       background-color: #4d4d4d;
       }
 
@@ -115,29 +117,29 @@
       position: absolute;
       bottom: 25px;
       width: 49%;
-      height: 2.5rem;            /* Footer height */
+      height: 2.5rem;
       margin-left: 42%;
       }
 
       p {
       font-family: Perpetua, Rockwell Extra Bold;
-      text-align: justify; /* Justify text within paragraph elements */
-      letter-spacing: 1px; /* This expands the text slightly */
+      text-align: justify;
+      letter-spacing: 1px;
       font-size: 20px;
-      padding-left: 20px; /* Adds padding to the left of the paragraph element */
-      padding-right: 20px; /* Adds padding to the right of the paragraph element */
+      padding-left: 20px;
+      padding-right: 20px;
       }
 
       @media screen and (max-width: 576px) {
       .Navbar a{
-      width: 15%; /* This makes each link take up 1/4 of the navbar */
+      width: 15%;
       font-size: 12px;
       }
       }
 
       @media screen and (max-width: 576px) {
       form {
-        width: 100%;
+      width: 100%;
       }
       }
 
@@ -179,61 +181,61 @@
 
       @media screen and (max-width: 576px) {
       #GitHub {
-        height: 430px;
-        width: 355px;
-        position: relative;
-        top: 30px;
-        bottom: 0px;
+      height: 430px;
+      width: 355px;
+      position: relative;
+      top: 30px;
+      bottom: 0px;
       }
       }
 
 
-    </style>
-    <body>
+      </style>
+      <body>
       <div>
       <div class="Navbar">
-        <a href="index.html">HOME</a>
-        <a href="about.html">ABOUT</a>
-        <a href="contact.html">CONTACT</a>
-    </div>
-    <br>
-    <br>
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="contact.html">CONTACT</a>
+      </div>
+      <br>
+      <br>
 
       <div class="Row" id="GitHub">
-        <!--Left column-->
-        <div class="Column_1">
-          <h3>CONTACT FORM</h3><br><br>
-          <form action="https://formspree.io/f/moqznngn" method="POST">
-            <label for="fname"><strong>Full Name</strong></label>
-            <input type="text" id="fname" name="fname" placeholder="Your name.." type="text" required>
-        
-            <label for="email"><strong>eMail</strong></label>
-            <input type="text" id="email" name="email" placeholder="Your email.." type="text" required>
-    
-            <label for="phone"><strong>Phone number</strong></label>
-            <input type="text" id="phone" name="phone" placeholder="Phone number.." type="text" required>
-        
-            <label for="message"><strong>Message</strong></label>
-            <input type="text" id="message" name="message" placeholder="Message.." type="text" required>
-          
-            <input type="submit" value="Submit">
-          </form>
-        </div>
-        <!--Right column-->
-        <div class="Column_2">
-            <a href="https://github.com/SilviuA96" target="_blank"><img src="Image/contact.jpg" alt=""></a>
-        </div>
-    </div>
-    <footer>
-      <p>
-          <p class="center">&#169;Silviu Albusel <a href="https://silviua96.github.io/" target="_blank">www.silviua96.github.io</a></p>
-      </p>
-  </footer>
-  </div>
+      <!--Left column-->
+      <div class="Column_1">
+      <h3>CONTACT FORM</h3><br><br>
+      <form action="https://formspree.io/f/moqznngn" method="POST">
+      <label for="fname"><strong>Full Name</strong></label>
+      <input type="text" id="fname" name="fname" placeholder="Your name.." type="text" required>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-    
-    </body>
-</html>
+      <label for="email"><strong>eMail</strong></label>
+      <input type="text" id="email" name="email" placeholder="Your email.." type="text" required>
+
+      <label for="phone"><strong>Phone number</strong></label>
+      <input type="text" id="phone" name="phone" placeholder="Phone number.." type="text" required>
+
+      <label for="message"><strong>Message</strong></label>
+      <input type="text" id="message" name="message" placeholder="Message.." type="text" required>
+
+      <input type="submit" value="Submit">
+      </form>
+      </div>
+      <!--Right column-->
+      <div class="Column_2">
+      <a href="https://github.com/SilviuA96" target="_blank"><img src="Image/contact.jpg" alt=""></a>
+      </div>
+      </div>
+      <footer>
+      <p>
+      <p class="center">&#169;Silviu Albusel <a href="https://silviua96.github.io/" target="_blank">www.silviua96.github.io</a></p>
+      </p>
+      </footer>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+      </body>
+      </html>

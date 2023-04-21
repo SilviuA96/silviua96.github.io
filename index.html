@@ -1,69 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>S.A.- Portfolio</title>
-</head>
-<style>
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" type="img/jpg" href="Image/1.jpg">
+      <title>S.A.- Portfolio</title>
+      </head>
+      <style>
 
-    body {
-    background-color: #C0C0C0;
-    padding-top: 7%;
-    }
+      body {
+      background-color: #C0C0C0;
+      padding-top: 7%;
+      }
 
-    .Navbar {
-    position: absolute;
-    top: 40px;
-    padding-top: 0px;
-    margin-left: 35%;
-    overflow: hidden;
-    background-color: black;
-    z-index: 1;
-    border-radius: 10px;
-    border: groove;
-    }
+      .Navbar {
+      position: absolute;
+      top: 40px;
+      padding-top: 0px;
+      margin-left: 35%;
+      overflow: hidden;
+      background-color: black;
+      z-index: 1;
+      border-radius: 10px;
+      border: groove;
+      }
 
-    .Navbar a {
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    font-family: Avant Garde, Helvetica;
-    font-size: 35px;
-    padding: 14px 16px;
-    }
+      .Navbar a {
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      font-family: Avant Garde, Helvetica;
+      font-size: 35px;
+      padding: 14px 16px;
+      }
 
-    .Navbar a:hover {
-    background-color: #4d4d4d; /* Defines the background color that will display when you hover over the link */
-    color: white; /* This defines the font color that will display when navbar a elements are hovered over */
-    font-weight: bold; /* This makes the text on the navbar bold when hovered over */
-    }
+      .Navbar a:hover {
+      background-color: #4d4d4d;
+      color: white;
+      font-weight: bold;
+      }
 
-    .Navbar a.active { /* This targets the a element on the navbar with the "active" class */
-    background-color: #4d4d4d;
-    }
+      .Navbar a.active {
+      background-color: #4d4d4d;
+      }
 
-    footer {
-    position: absolute;
-    bottom: 25px;
-    height: 2.5rem;            /* Footer height */
-    margin-left: 40%;
-    }
+      footer {
+      position: absolute;
+      bottom: 25px;
+      height: 2.5rem;
+      margin-left: 40%;
+      }
 
-    p {
-    font-family: Perpetua, Rockwell Extra Bold;
-    text-align: center; /* Justify text within paragraph elements */
-    letter-spacing: 1px; /* This expands the text slightly */
-    font-size: 20px;
-    padding-left: 20px; /* Adds padding to the left of the paragraph element */
-    padding-right: 20px; /* Adds padding to the right of the paragraph element */
-    }
+      p {
+      font-family: Perpetua, Rockwell Extra Bold;
+      text-align: center;
+      letter-spacing: 1px;
+      font-size: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      }
 
-    .Column_1 {
+      .Column_1 {
       float: left;
       width: 100%;
-      height: 300px; /* This sets the height of the column to 500px -  this may need to be adjusted depending on the text you enter */
-      background-color: #f2f2f2; /* Sets the background color of the columns with class Column_1 */
+      height: 300px;
+      background-color: #f2f2f2;
       border-radius: 10px;
       }
 
@@ -76,7 +77,7 @@
 
       @media screen and (max-width: 576px) {
       .Navbar a{
-      width: 15%; /* This makes each link take up 1/4 of the navbar */
+      width: 15%;
       font-size: 12px;
       }
       }
@@ -99,56 +100,44 @@
       }
       }
 
+      </style>
+      <body>
+      <div>
+      <div class="Navbar">
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="contact.html">CONTACT</a>
+      </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
 
+      <div class="Row" id="GitHub">
+      <div class="Column_1">
+      <video height="100%" autoplay="true" loop="true" muted="true" plays-inline="" style="position: absolute; right: 0; top: 0px; min-width:100%; z-index: -100; object-fit: cover;">
+      <source src="./Video/Typing.mp4" type="video/mp4"> </video>
 
-
-  </style>
-<body>
-  <div>
-  <div class="Navbar">
-    <a href="index.html">HOME</a>
-    <a href="about.html">ABOUT</a>
-    <a href="contact.html">CONTACT</a>
-</div>
-</div>
-<br>
-<br>
-<br>
-<br>
-
-<div class="Row" id="GitHub">
-    <!--Left column-->
-    <div class="Column_1">
-        <video height="100%" autoplay="true" loop="true" muted="true" plays-inline="" style="position: absolute; right: 0; top: 0px; min-width:100%; z-index: -100; object-fit: cover;">
-            <source src="./Video/Typing.mp4" type="video/mp4"> </video>
-    
-            <div class="Video_Text">
-              <strong>
-                  <p class="center text-white text-center">
-                    <br>
-                    <br>
-                      <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
-                          <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
-                          <br>field of battle and to command such unswervingly dutiful actors or troops.
-                      </q>
-                      <br> -Joseph Weizenbaum
-                      <br>
-                      <br> My name is Silviu Albusel. Welcome to my portfolio website. On it, I will tell you about my background and experience.
-                      <br>
-                      <br> Thank you for stopping by and enjoy! 
-                  </p>
-              </strong>
-          </div>
-    </div>
-    <!--Right column-->
-    <div class="Column_2">
-    </div>
-</div>
-
-    </div>
-</div>
-
-
+      <div class="Video_Text">
+      <strong>
+          <p class="center text-white text-center">
+            <br>
+            <br>
+              <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                  <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+                  <br>field of battle and to command such unswervingly dutiful actors or troops.
+              </q>
+              <br> -Joseph Weizenbaum
+              <br>
+              <br> My name is Silviu Albusel. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+              <br>
+              <br> Thank you for stopping by and enjoy! 
+          </p>
+      </strong>
+      </div>
+      </div>
+      </div>
 
 
 </body>
