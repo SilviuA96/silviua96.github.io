@@ -44,13 +44,6 @@
       background-color: #4d4d4d;
       }
 
-      footer {
-      position: absolute;
-      bottom: 25px;
-      height: 2.5rem;
-      margin-left: 40%;
-      }
-
       p {
       font-family: Perpetua, Rockwell Extra Bold;
       text-align: center;
@@ -68,37 +61,144 @@
       border-radius: 10px;
       }
 
-      @media screen and (max-width: 576px) {
-      img {
-      height: 100px;
-      margin-top: 150px;
-      }
-      }
+/***** Media Query Section *****/
+/*Media rules for paragraph font size for different screen sizes*/
 
-      @media screen and (max-width: 576px) {
-      .Navbar a{
-      width: 15%;
-      font-size: 12px;
-      }
-      }
+            @media screen and (max-width: 527px) {
+            p {
+            font-size: 3.75vw;
+            }
+            }
 
-      @media screen and (max-width: 576px) {
-      .Column_1 {
-      width: 100%;
-      }
-      }
+            @media screen and (min-width: 528px) and (max-width: 660px) {
+            p {
+            font-size: 3vw;
+            }
+            }
 
-      @media screen and (max-width: 576px) {
-      p {
-      font-size: 12px;
-      }
-      }
+            @media screen and (min-width: 661px) and (max-width: 799px) {
+            p {
+            font-size: 2.5vw;
+            }
+            }
 
-      @media screen and (max-width: 576px) {
-      .Navbar {
-      margin-left: 70px;
-      }
-      }
+            @media screen and (min-width: 800px) and (max-width: 924px) {
+            p {
+            font-size: 2.25vw;
+            }
+            }
+
+            @media screen and (min-width: 925px) and (max-width: 1050px) {
+            p {
+            font-size: 2vw;
+            }
+            }
+
+            @media screen and (min-width: 1051px) and (max-width: 1310px) {
+            p {
+            font-size: 1.70 vw;
+            } 
+            }
+
+            @media screen and (min-width: 1311px) and (max-width: 1535px) {
+            p {
+            font-size: 1.75vw;
+            }
+            }
+
+            @media screen and (min-width: 1536px) and (max-width: 2269px) {
+            p {
+            font-size: 1.5vw;
+            }
+            }
+
+            @media screen and (min-width: 2270px) {
+            p {
+            font-size: 1.35vw;
+            }
+            }
+
+/*Media rule for navbar links for different screen sizes*/
+/* Screens 1080px and smaller will display navbar links equally distributed */
+
+            @media screen and (max-width: 1080px) {
+            .Navbar a{
+            width: 20%; /* This sets each navbar link to 1/5 of the navbar */
+            font-size: 2.5vw;
+            }
+            }
+
+            /* Media rules to enlarge the font of the white text for smaller screens */
+            @media screen and (max-width: 1080px) {
+            .quote{
+            font-size: 3.5vw;
+            }
+
+            .white-text {
+            font-size: 4.5vw;
+            }
+            }
+
+            /* Media rules to increase the size of the columns for larger screens */
+            @media screen and (min-width: 1725px) {
+            .Column_1 {
+            height: 550px;
+            }
+            .Column_2 {
+            height: 550px;
+            }
+            }
+
+
+            /*Media rule to remove margin-top from h1 elements for extra large screens (so that the paragraph text fits in the column*/
+
+            @media screen and (min-width: 328px) and (max-width: 376px) {
+            .Navbar {
+            margin-left: 25%;
+            }
+            }
+
+            @media screen and (min-width: 377px) and (max-width: 415px) {
+            .Navbar {
+            margin-left: 25%;
+            }
+            }
+
+            @media screen and (min-width: 416px) and (max-width: 541px) {
+            .Navbar {
+            margin-left: 28%;
+            }
+            }
+
+            @media screen and (min-width: 279px) and (max-width: 327px) {
+            .Navbar {
+            margin-left: 18%;
+            }
+            }
+
+            @media screen and (min-width: 1022px) and (max-width: 1024px) {
+            .Navbar {
+            margin-left: 28%;
+            }
+            }
+
+            @media screen and (min-width: 1022px) and (max-width: 1024px) {
+            .Column_1 {
+            width: 95%;
+            }
+            }
+
+            @media screen and (min-width: 1025px) and (max-width: 1281px) {
+            .Navbar {
+            margin-left: 20%;
+            }
+            }
+
+            @media screen and (min-width: 1025px) and (max-width: 1281px) {
+            .Column_1 {
+            width: 76.2%;
+            }
+            }
 
       </style>
       <body>
@@ -122,7 +222,6 @@
       <div class="Video_Text">
       <strong>
           <p class="center text-white text-center">
-            <br>
             <br>
               <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
                   <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
