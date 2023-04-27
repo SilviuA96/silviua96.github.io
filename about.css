@@ -311,3 +311,15 @@ h6 {
     }
 
 }
+
+@media screen and (min-width: 1650px) {
+    img {
+        width: 75%;
+        height: 80%;
+    }
+
+    p {
+        margin-top: 0px;
+        font-size: 0.8vw;
+    }
+}
