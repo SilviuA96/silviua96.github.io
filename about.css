@@ -73,3 +73,43 @@ h6 {
     color: white;
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 2.7vw;
+    }
+
+    img {
+        margin-top: 30%;
+    }
+    
+    .Column1 {
+        height: 600px;
+        margin-left: 2%;
+    }
+
+    .Column2 {
+        height: 600px;
+        width: 63%;
+    }
+
+    .Column3 {
+        height: 20px;
+        width: 82%;
+        margin-right: 2%;
+        display: inline-flex;
+        padding: 25px;
+    }
+
+    .Column2 i {
+        margin-left: -20px;
+    }
+
+    .Column3 i {
+        margin-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 50px;
+    }
+
+}
