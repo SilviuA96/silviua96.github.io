@@ -102,6 +102,7 @@ h6 {
         margin-top: 0px;
         height: 600px;
         width: 63%;
+        overflow: scroll;
     }
 
     .Column3 {
@@ -149,6 +150,7 @@ h6 {
         margin-top: 0px;
         height: 600px;
         width: 63%;
+        overflow: scroll;
     }
 
     .Column3 {
@@ -194,6 +196,7 @@ h6 {
     .Column2 {
         height: 600px;
         width: 63%;
+        overflow: scroll;
     }
 
     .Column3 {
@@ -236,6 +239,7 @@ h6 {
         margin-top: 0px;
         height: 600px;
         width: 63%;
+        overflow: scroll;
     }
 
     .Column3 {
