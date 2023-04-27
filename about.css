@@ -74,9 +74,112 @@ h6 {
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 286px) {
+    h3 {
+        margin-left: 15px;
+        font-size: 4vw;
+    }
+
+    h2 {
+        font-size: 7.5vw;
+    }
+
     p {
-        font-size: 2.5vw;
+        font-size: 3.35vw;
+    }
+
+    img {
+        margin-top: 30%;
+    }
+    
+    .Column1 {
+        margin-top: 0px;
+        height: 600px;
+        margin-left: 2%;
+    }
+
+    .Column2 {
+        margin-top: 0px;
+        height: 600px;
+        width: 63%;
+    }
+
+    .Column3 {
+        height: 20px;
+        width: 78%;
+        margin-right: 2%;
+        display: inline-flex;
+        padding: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .Column2 i {
+        margin-left: -20px;
+    }
+
+    .Column3 i {
+        margin-left: 4px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (min-width: 287px) and (max-width: 376px) {
+    h3 {
+        margin-left: 16px;
+    }
+
+    p {
+        font-size: 2.8vw;
+    }
+
+    img {
+        margin-top: 30%;
+    }
+    
+    .Column1 {
+        margin-top: 0px;
+        height: 600px;
+        margin-left: 2%;
+    }
+
+    .Column2 {
+        margin-top: 0px;
+        height: 600px;
+        width: 63%;
+    }
+
+    .Column3 {
+        margin-top: 10px;
+        height: 20px;
+        width: 82%;
+        margin-right: 2%;
+        display: inline-flex;
+        padding: 25px;
+        margin-bottom: 10px;
+    }
+
+    .Column2 i {
+        margin-left: -20px;
+    }
+
+    .Column3 i {
+        margin-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 415px) {
+    h3 {
+        margin-left: 27px;
+    }
+
+    p {
+        font-size: 2.7vw;
     }
 
     img {
@@ -95,10 +198,11 @@ h6 {
 
     .Column3 {
         height: 20px;
-        width: 82%;
+        width: 83%;
         margin-right: 2%;
         display: inline-flex;
         padding: 25px;
+        margin-top: 10px;
     }
 
     .Column2 i {
@@ -107,6 +211,134 @@ h6 {
 
     .Column3 i {
         margin-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (min-width: 416px) and (max-width: 600px) {
+    p {
+        font-size: 2.3vw;
+    }
+
+    img {
+        margin-top: 30%;
+    }
+    
+    .Column1 {
+        margin-top: 0px;
+        height: 600px;
+        margin-left: 2%;
+    }
+
+    .Column2 {
+        margin-top: 0px;
+        height: 600px;
+        width: 63%;
+    }
+
+    .Column3 {
+        height: 20px;
+        width: 87%;
+        margin-right: 2%;
+        display: inline-flex;
+        padding: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .Column2 i {
+        margin-left: -20px;
+    }
+
+    .Column3 i {
+        margin-left: 65px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 50px;
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 825px) {
+    p {
+        font-size: 1.41vw;
+    }
+
+    .Column3 {
+        width: 4%;
+        margin-right: 45px;
+    }
+
+}
+
+@media screen and (min-width: 826px) and (max-width: 915px) {
+    p {
+        font-size: 1.31vw;
+    }
+
+    .Column3 {
+        width: 4%;
+        margin-right: 55px;
+    }
+
+}
+
+@media screen and (min-width: 916px) and (max-width: 1025px) {
+    p {
+        font-size: 1.27vw;
+        margin-top: 0px;
+    }
+
+    .Column1 {
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+
+    .Column2 {
+        margin-top: 30px;
+    }
+
+    .Column3 {
+        width: 4%;
+        margin-top: 30px;
+        margin-right: 95px;
+    }
+
+}
+
+@media screen and (min-width: 1026px) and (max-width: 1285px) {
+    p {
+        font-size: 1.08vw;
+        margin-top: 0px;
+    }
+
+    .Column1 {
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .Column2 {
+        margin-top: 30px;
+    }
+
+    .Column3 {
+        height: 40px;
+        width: 52%;
+        margin-right: 33%;
+        display: inline-flex;
+        padding: 25px;
+        padding-bottom: 0px;
+        margin-top: 20px;
+    }
+
+    .Column2 i {
+        margin-left: -20px;
+    }
+
+    .Column3 i {
+        margin-left: 115px;
         margin-top: 10px;
         margin-bottom: 10px;
         margin-right: 50px;
